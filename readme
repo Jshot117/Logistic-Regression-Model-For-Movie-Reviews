@@ -1,0 +1,17 @@
+This is a logistic regression model that predicts whether a movie review is either positive or negative
+
+In order to begin you would need to preproccess the data
+
+Then to run the pre-process.py you need to run four lines of commands 
+
+python pre-process.py movie-review-HW2/aclImdb/train/pos preprocessed_reviews/train/pos
+python pre-process.py movie-review-HW2/aclImdb/train/neg preprocessed_reviews/train/neg
+python pre-process.py movie-review-HW2/aclImdb/test/pos preprocessed_reviews/test/pos
+python pre-process.py movie-review-HW2/aclImdb/test/neg preprocessed_reviews/test/neg
+
+After the data is proccessed you would need to run LR.py(will take a couple of minutes)
+
+The Logistic regression model will output its accuracy for correctly predicting the movie revies as either positive or negative
+It will then report the probabilites for each positive and negative class
+It will then report the accuracy for the small test data
+It will then report the probabilites for each positive and negative class for the small data
